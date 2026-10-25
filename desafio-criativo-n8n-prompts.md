@@ -1,0 +1,64 @@
+# 🚀 Desafio Criativo: Planejando Automações com N8N Usando Apenas Bons Prompts
+
+**Bootcamp:** Santander 2026 - Automação com N8N (DIO)
+
+---
+
+## 🧱 Passo 1: Definição da Automação Desejada
+
+```text
+Quero criar uma automação no N8N para analisar as despesas registradas ao longo da semana e gerar um fechamento financeiro automático.
+
+Público ou responsável:
+Equipe financeira (ou uso pessoal para controle de gastos).
+
+Resultado esperado:
+Somar os gastos da semana, destacar despesas altas e enviar um resumo organizado por e-mail toda sexta-feira.
+```
+
+---
+
+## 🧱 Passo 2: Contexto, Ferramentas e Regras
+
+```text
+Ferramentas envolvidas:
+Google Sheets e Gmail (além dos nós nativos de Agendamento e Filtro do N8N).
+
+Fluxo desejado:
+1. Disparar a automação automaticamente toda sexta-feira às 17h.
+2. Ler os registros de despesas da semana na planilha do Google Sheets.
+3. Filtrar os dados válidos, calcular o total gasto na semana e identificar despesas acima de R$ 500.
+4. Enviar um e-mail pelo Gmail com o resumo semanal formatado.
+
+Regras importantes:
+- Ignorar linhas com valor igual a zero ou sem valor preenchido.
+- Destacar em vermelho no corpo do e-mail todas as despesas que ultrapassarem R$ 500,00.
+```
+
+---
+
+## 🧱 Passo 3: Prompt Final Estruturado
+
+```text
+Atue como um especialista em N8N.
+
+Crie uma automação para analisar as despesas registradas ao longo da semana e gerar um fechamento financeiro automático.
+
+Público:
+Equipe financeira (ou uso pessoal para controle de gastos).
+
+Ferramentas envolvidas:
+Google Sheets e Gmail (além dos nós nativos de Agendamento e Filtro do N8N).
+
+Fluxo:
+1. Disparar a automação automaticamente toda sexta-feira às 17h.
+2. Ler os registros de despesas da semana na planilha do Google Sheets.
+3. Filtrar os dados válidos, calcular o total gasto na semana e identificar despesas acima de R$ 500.
+4. Enviar um e-mail pelo Gmail com o resumo semanal formatado.
+
+Regras:
+- Ignorar linhas com valor igual a zero ou sem valor preenchido.
+- Destacar em vermelho no corpo do e-mail todas as despesas que ultrapassarem R$ 500,00.
+
+Explique quais nós do N8N devem ser utilizados e a lógica de funcionamento do workflow.
+```
